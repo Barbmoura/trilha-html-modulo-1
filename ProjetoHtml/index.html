@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha HTML - Dio.me</title>
+    <link rel="icon" href="C:\dev\ImagensParaProjetos\html.jpeg">
+</head>
+<body style="font-family:Courier New, monospace">
+    <h1 id="inicio" style="text-align:center">Módulo 1 | Primeiros Passos com HTML</h1>
+    
+    <hr />
+
+    <h2>Índice</h2>
+
+    <ol>
+        <li><a href="#historia" style="color:gray">História dos computadores</a></li>
+        <li><a href="#clients" style="color:gray">O que é <i>client-side</i> e <i>server-side</i>?</a></li>
+        <li><a href="#estruturahtml" style="color:gray">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#listas" style="color:gray">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#referencias" style="color:gray">Links de referências</a></li>
+    </ol>
+
+    <h2 id="historia">1. História dos computadores</h2>
+    <p>
+        <strong><u>Primeira Geração (1951-1959)</u></strong>
+        <br>
+        Os computadores de primeira geração funcionavam por meio de circuitos e válvulas eletrônicas. Possuíam o uso restrito, além de serem imensos e consumirem muita energia. Um exemplo é o ENIAC (<i>Eletronic Numerical Integrator and Computer</i>) que consumia cerca de 200 quilowatts e possuía 19.000 válvulas.
+        <br>
+        <br>
+        <strong><u>Segunda Geração (1959-1965)</u></strong>
+        <br>
+        Ainda com dimensões muito grandes, os computadores da segunda geração funcionavam por meio de transistores, os quais substituíram as válvulas que eram maiores e mais lentas. Nesse período já começam a se espalhar o uso comercial.
+        <br>
+        <br>
+        <strong><u>Terceira Geração (1965-1975)</u></strong>
+        <br>
+        Os computadores da terceira geração funcionavam por circuitos integrados. Esses substituíram os transistores e já apresentavam uma dimensão menor e maior capacidade de processamento.
+        Foi nesse período que os chips foram criados e a utilização de computadores pessoais começou.
+        <br>
+        <br>
+        <strong><u>Quarta Geração (1975-até os dias atuais)</u></strong>
+        <br>
+        Com o desenvolvimento da tecnologia da informação, os computadores diminuem de tamanho, aumentam a velocidade e capacidade de processamento de dados. São incluídos os microprocessadores com gasto cada vez menor de energia. Nesse período, mais precisamente a partir da década de 90, há uma grande expansão dos computadores pessoais.
+        Além disso, surgem os softwares integrados e a partir da virada do milênio, começam a surgir os computadores de mão. Ou seja, os smartphones, iPod, iPad e tablets, que incluem conexão móvel com navegação na web.
+    </p>
+    <small><a href="#inicio" style="color:black" title="Clique para voltar ao topo da página">Voltar</a></small>
+
+    <h2 id="clients">2. O que é <i>client-side</i> e <i>server-side</i>?</h2>
+    <p>
+        <strong>Diferenças entre linguagem <i>client-side</i> e linguagem <i>server-side</i></strong>
+        <br>
+        <br>
+        Existem dois tipos de linguagens para desenvolvermos para internet: as linguagens <i>client-side</i> e as linguagens <i>server-side</i>. Você pode ver estes nomes meio diferentes em outros lugares como por exemplo, front-end, se referindo às linguagens <i>client-side</i> e back-end se referindo às linguagens <i>server-side</i>. Não se preocupe, são a mesma coisa. Mas nesse texto, para que você possa entender melhor, vamos usar <i>client-side</i> e <i>server-side</i>.
+        <br>
+        As linguagens <i>server-side</i> são linguagens que o SERVIDOR entende. Isso quer dizer que vai escrever um código onde o servidor vai processá-lo e então vai mandar para o seu navegador a resposta.
+        <br>
+        As linguagens <i>client-side</i> são linguagens onde apenas o seu NAVEGADOR vai entender. Quem vai processar essa linguagem não é o servidor, mas o seu browser.
+        <br>
+        Por exemplo: se criarmos um script em linguagem back-end (PHP, Asp, Java, Ruby, etc) que apenas calcula a soma de 2 + 2, será o SERVIDOR (ou back, o server) que calculará este resultado. Se fizermos esse cálculo em alguma linguagem front-end, como o JavaScript, quem calculará essa conta é o BROWSER do usuário. Por isso o termo client ou front.
+        <br>
+        Assim, os profissionais que trabalham na interface do usuário, são chamados de Desenvolvedores front-end, e aqueles que trabalham no core da aplicação, fazendo uma programação que somente o servidor irá entender são chamados de Desenvolvedores back-end.
+    </p>  
+    <small><a href="#inicio" style="color:black" title="Clique para voltar ao topo da página">Voltar</a></small>
+
+    <h2 id="estruturahtml">3. Como é uma estrutura básica de um HTML?</h2>
+    <p>
+        Tag &lt;html&gt;
+        <br>
+        Tag &lt;head&gt;
+        <br>
+        Tag &lt;body&gt;
+        <br>
+        <br> 
+        <img  width="400" src="C:\dev\ImagensParaProjetos\estrutura html.png">
+    </p>
+    <small><a href="#inicio" style="color:black" title="Clique para voltar ao topo da página">Voltar</a></small>
+
+    <h2 id="listas">4. Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+    <p>
+        A principal diferença entre a lista ordenada e a lista não-ordenada está na maneira com que os itens de cada lista são apresentados - a lista ordenada enumera os elementos; a lista não-ordenada coloca marcadores antes de cada elemento.
+        <br>
+        Uma <strong>lista ordenada</strong> é delimitada pelas etiquetas &lt;OL&gt; e &lt;/OL&gt; (<i>Ordered List</i>). Cada item da lista é delimitado pelas etiquetas &lt;LI&gt; e &lt;/LI&gt; (<i>List Item</i>). 
+        <br>
+        A estrutura da <strong>lista não-ordenada</strong> é semelhante a da lista ordenada - porém, ao invés de ser construída com o elemento OL, é construída com o elemento UL (<i>Unordered List</i>). 
+        <br>
+        <br> 
+        <img  width="200" src="C:\dev\ImagensParaProjetos\listas.png">
+    </p>
+    <small><a href="#inicio" style="color:black" title="Clique para voltar ao topo da página">Voltar</a></small>
+
+    <h2 id="referencias">5. Links de referências</h2>
+    <p>Abaixo estão os links que utilizei para compor este trabalho.</p>
+
+    <ul>
+        <li><a href="https://www.todamateria.com.br/historia-e-evolucao-dos-computadores/" target="_blank" style="color:gray">Toda Matéria</a></li>
+        <li><a href="https://tableless.github.io/iniciantes/manual/obasico/o-que-front-back.html" target="_blank" style="color:gray">Getting Started</a></li>
+        <li><a href="https://www.alura.com.br/apostila-html-css-javascript/03CA-a-spec-html#:~:text=Um%20documento%20HTML%20v%C3%A1lido%20precisa,DOCTYPE%3E%20." target="_blank" style="color:gray">Alura</a></li>
+        <li><a href="https://www.homehost.com.br/blog/tutoriais/caracteres-especiais-acentos-html/" target="_blank" style="color:gray">Caracteres especiais HTML</a></li>
+        <li><a href="http://www.nce.ufrj.br/ginape/cursohtml/conteudo/listas/ordenada.htm#:~:text=A%20principal%20diferen%C3%A7a%20entre%20a,marcadores%20antes%20de%20cada%20elemento." target="_blank" style="color:gray">Lista ordenada e não-ordenada</a></li>
+        <li><a href="https://www.w3.org/Style/Examples/007/fonts.pt_BR.html" target="_blank" style="color:gray">W3C - Fontes</a></li>
+    </ul>
+    <small><a href="#inicio" style="color:black" title="Clique para voltar ao topo da página">Voltar</a></small>
+
+</body>
+</html>
